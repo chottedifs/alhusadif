@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #F1F4FB;
+}
+
+/* Navigation Bar */
+header nav .navbar-brand {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 36px;
+    color: #2E37A4;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    align-items: center;
+    margin: 0px 20px;
+}
+
+.navbar .btn-contact {
+    background-color: #2E37A4;
+    color: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    padding: 6px 23px;
+    margin-left: 20px;
+}
+
+.navbar .btn-contact:hover {
+    color: #fff;
+    background-color: #3741ad;
+}
+
+/* Hero Section */
+#about {
+    margin: 80px 0px;
+}
+
+#about h3 {
+    color: #000;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+#about h2 {
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 87px;
+    color: #000000;
+    margin: 5px 0px;
+    text-transform: capitalize;
+}
+
+#about h2 span {
+    color: #FE721C;
+}
+
+#about .lead-hero {
+    margin: 10px 0px;
+    text-align: justify;
+    justify-content: center;
+} 
