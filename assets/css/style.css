@@ -8,10 +8,14 @@ body {
 }
 
 /* Navigation Bar */
-header nav .navbar-brand {
+header .navbar .navbar-brand {
     font-weight: 800;
     font-size: 24px;
     line-height: 36px;
+    color: #2E37A4;
+}
+
+header .navbar .navbar-brand:hover {
     color: #2E37A4;
 }
 
@@ -34,8 +38,8 @@ header nav .navbar-brand {
 }
 
 .navbar .btn-contact:hover {
+    background-color: #FE721C;
     color: #fff;
-    background-color: #3741ad;
 }
 
 /* Hero Section */
@@ -66,4 +70,104 @@ header nav .navbar-brand {
     margin: 10px 0px;
     text-align: justify;
     justify-content: center;
-} 
+}
+
+#about .img-hero {
+    width: 100%;
+    justify-content: flex-end;
+}
+
+#about .soc-med {
+    align-items: center;
+}
+
+#about .btn-cvdownload {
+    background-color: #2E37A4;
+    color: #ffff;
+    border-radius: 20px;
+    width: 165px;
+    height: 41px;
+    margin-right: 20px;
+    background: #2E37A4;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#about .btn-cvdownload:hover {
+    background-color: #FE721C;
+    transition: all ease-in 0.3s;
+}
+
+#about .btn-soc-med {
+    margin-left: 0px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: #2E37A4;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 100%;
+    padding: 10px;
+    background: #2E37A4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#about .btn-soc-med:hover {
+    background-color: #FE721C;
+    transition: all ease-in 0.3s;
+}
+
+/* Section Portfolio */
+#portfolio {
+    margin: 80px 0px;
+}
+
+#portfolio .title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+#portfolio .lead {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 54px;
+    color: #000000;
+    text-transform: capitalize;
+}
+
+#portfolio .lead span {
+    color: #FE721C;
+    font-weight: 700;
+}
+
+#portfolio .card{
+    border: none;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    margin-top: 40px;
+}
+
+#portfolio .card-img-portfolio {
+    padding: 20px 30px;
+}
+
+#portfolio .card .card-title {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 700;
+    color: #000000;
+    text-transform: capitalize;
+}
+
+#portfolio .card .btn-demo {
+    background-color: #2E37A4;
+    color: #fff;
+    border-radius: 20px;
+    width: 116px;
+    height: 36px;
+    align-content: center;
+    margin-top: 10px;
+}

@@ -9,11 +9,13 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Bootstrap CSS Style -->
     <link rel="stylesheet" href="assets/library/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
 </head>
 <body>
     <header>
         <!-- Navigation Bar -->
-        <nav class="navbar navbar-expand-lg my-3">
+        <nav class="navbar navbar-expand-lg my-2 navbar-light">
             <div class="container">
                 <a class="navbar-brand" href="#">ALDI HUSADIF</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,10 +27,10 @@
                             <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Portofolio</a>
+                            <a class="nav-link" href="#portfolio">Portofolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Skills</a>
+                            <a class="nav-link" href="#skills">Skills</a>
                         </li>
                     </ul>
                     <a class="btn btn-contact" href="#">contact</a>
@@ -40,7 +42,7 @@
         <section id="about">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-7 col-md-6 align-self-center">
+                    <div class="col-lg-8 col-md-6 align-self-center">
                         <h3>
                             Hello, I'am
                         </h3>
@@ -56,15 +58,57 @@
                             dolor deserunt perspiciatis expedita obcaecati 
                             velit aut iusto quibusdam natus, ex pariatur nihil.
                         </p>
-                        <a href="" class="btn btn-cvdownload">Download Cv</a>
+                        <div class="d-block soc-med justify-content-center">
+                            <a href="" class="btn btn-cvdownload">Download Cv</a>
+                            <a href=""><i class="btn-soc-med rounded-circle fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="btn-soc-med rounded-circle fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="btn-soc-med rounded-circle fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="btn-soc-med rounded-circle fa-brands fa-linkedin"></i></a>
+                        </div>
                     </div>
-                    <div class="col-lg-5 col-md-6">
-                        <img src="assets/images/img-hero.png" alt="">
+                    <div class="col-lg-4 col-md-6 align-self-center">
+                        <img src="assets/images/img-hero.png" alt="" class="img-hero">
                     </div>
                 </div>
             </div>
         </section>
     </header>
+
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <h3 class="title">Portfolio</h3>
+                <p class="lead">You can see all <span>my projects</span></p>
+                <div class="col-lg-4 col-md-12">
+                    <div class="card">
+                        <img src="assets/images/Project1.svg" class="card-img-portfolio" alt="...">
+                        <div class="card-body text-center">
+                          <h5 class="card-title">Design Website Lets ID</h5>
+                          <a href="#" class="btn btn-demo">Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="card">
+                        <img src="assets/images/project2.svg" class="card-img-portfolio" alt="...">
+                        <div class="card-body text-center">
+                          <h5 class="card-title">Website Gatewaynet Sembung</h5>
+                          <a href="#" class="btn btn-demo">Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="card">
+                        <img src="assets/images/Project3.svg" class="card-img-portfolio" alt="...">
+                        <div class="card-body text-center">
+                          <h5 class="card-title">Design Dashboard UI</h5>
+                          <a href="#" class="btn btn-demo">Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <footer></footer>
