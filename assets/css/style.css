@@ -2,8 +2,6 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    margin: 0px;
-    padding: 0px;
     background-color: #F1F4FB;
 }
 
@@ -167,7 +165,148 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     color: #fff;
     border-radius: 20px;
     width: 116px;
-    height: 36px;
+    height: 40px;
     align-content: center;
     margin-top: 10px;
+}
+
+#portfolio .card .btn-demo:hover {
+    background-color: #FE721C;
+    transition: all ease-in 0.3s;
+}
+
+/* Section Interest */
+#interest {
+    margin: 80px 0px;
+}
+
+#interest .card {
+    border-radius: 20px;
+    border: none;
+    padding: 40px 40px;
+    background-color: #fff;
+}
+
+#interest .title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    text-transform: capitalize;
+}
+
+#interest .title span {
+    color: #FE721C;
+}
+
+#interest .btn-hire {
+    color: #fff;
+    background-color: #2E37A4;
+    align-items: center;
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#interest .btn-hire:hover {
+    background-color: #FE721C;
+    transition: all ease-in 0.3s;
+}
+
+#interest .btn-hire i {
+    margin-right: 20px;
+}
+
+/* Section Hire */
+#hire {
+    margin: 80px 0px;
+}
+
+#hire .title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 72px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+#hire .title-item {
+    text-align: center;
+    color: #FE721C;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+    margin: 20px 0px;
+}
+
+#hire .lead-item {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+/* Section Skill */
+#skills {
+    margin: 80px 0px;
+}
+
+#skills .title-skills {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #000000;
+}
+
+#skills .title-skills span {
+    color: #FE721C;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 72px;
+}
+
+#skills .lead-skills {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+}
+
+#skills .img-skills {
+    margin-top: 40px;
+    /* width: 90%; */
+    justify-content: center;
+}
+
+/* Footer  */
+footer {
+    background-color: #2E37A4;
+    padding: 60px 0px;
+    color: #fff;
+}
+
+footer .lead-footer {
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+footer .lead-footer a {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+footer .btn-soc-med {
+    color: #ffff;
+    font-size: 30px;
+    margin-right: 40px;
+    margin-top: 20px;
 }
